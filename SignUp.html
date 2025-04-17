@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Sign Up</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="form-wrapper" id="formWrapper">
+      <!-- Sign Up + Hello Panel -->
+      <div class="form-container">
+        <form>
+          <h2>Sign Up</h2>
+          <input type="text" placeholder="Username" />
+          <input type="email" placeholder="Email" />
+          <div class="password-wrapper">
+            <input type="password" id="signupPass" placeholder="Password" />
+            <span class="eye" id="toggleSignup">👁️</span>
+          </div>
+          <button type="submit">Sign Up</button>
+          <p>Already have an account? <a id="toLogin">Login</a></p>
+        </form>
+      </div>
+      <div class="info-container">
+        <h1>Hello There!</h1>
+        <p>Welcome to our awesome platform 🌟</p>
+      </div>
+
+      <!-- Login + Welcome Panel -->
+      <div class="info-container">
+        <h1>Welcome Back!</h1>
+        <p>Good to see you again 😊</p>
+      </div>
+      <div class="form-container">
+        <form>
+          <h2>Login</h2>
+          <input type="text" placeholder="Username" />
+          <div class="password-wrapper">
+            <input type="password" id="loginPass" placeholder="Password" />
+            <span class="eye" id="toggleLogin">👁️</span>
+          </div>
+          <button type="submit">Login</button>
+          <p>Don't have an account? <a id="toSignup">Sign Up</a></p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
