@@ -123,3 +123,8 @@ a {
   color: #ff0000;
   cursor: pointer;
 }
+
+img{
+  width: 200px;
+  height: 130px;
+}
